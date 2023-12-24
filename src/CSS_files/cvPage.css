@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto:wght@300&display=swap');
+
+.CVpage{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+
+    background-color: white;
+    width: 40vw;
+    height: fit-content;
+    min-height: 900px; 
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    padding: 25px 0px 0px 25px;
+    font-size: 54px;
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 600;
+}
+
+.subText{
+    padding: 5px 0px 0px 25px;
+    font-size: 18px;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.eduTitle{
+
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    padding: 5px 25px;
+    background-color: #e7f9f3;
+    font-weight: 600;
+}
+
+.expTitle2{
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 28px;
+    padding: 5px 25px;
+    background-color: #e7f9f3;
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.experienceCV{
+    display: flex;
+    flex-direction: column;
+}
+
+.educationCV{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.item{
+    padding: 5px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+.titleStudy{
+    font-size: 18px;
+    font-style: italic;
+}
+.result{
+    font-size: 18px;
+    font-style: italic;
+}
+
+.line{
+    
+    /* width: fit-content; */
+    width: 11vw;
+    margin: 2px 25px;
+    color: aliceblue;
+}
+
+.lineExp{
+    width: 11vw;
+    margin: 7px 25px;
+    color: aliceblue;
+}
+
+.upLine{
+    background-color: #254968;
+    height: 2px;
+}
+
+.titlePosition{
+    padding: 1px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #1d4614;
+}
+
+.company{
+    padding: 1px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #196cab;
+}
+.initiateDate{
+    padding: 1px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 18px;
+    color: #423636;
+}
+
+.description{
+    padding: 1px 25px;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    color: #423636;
+    white-space: pre-line;
+}

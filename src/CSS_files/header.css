@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+.header{
+
+
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 62px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 300;
+    background-color:#7791c1;
+    color:rgb(2, 2, 66);
+}

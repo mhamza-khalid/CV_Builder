@@ -1,0 +1,44 @@
+
+
+.expForm{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 4;
+    justify-self: center;
+}
+
+.expTitle{
+    display: flex;
+    background-color: #809fe7;
+    width: 30vw;
+    padding: 20px;
+    border-radius: 40px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    font-size: 36px;
+    font-weight: 600;
+    height: fit-content;
+    margin-top: 20px;
+}
+
+.Form{
+    font-family: 'Roboto', sans-serif;
+    margin-top: 20px;
+    border-radius: 0px;
+    background-color: #809fe7;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 40px;
+}
+
+.textArea{
+    border-radius: 20px;
+    padding: 7px;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    resize: none;
+}
+
+.textArea:focus{
+    border: 4px solid rgb(83, 83, 191);
+}
